@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+   app:startDestination="@+id/menu_principal">
+
+    <fragment
+        android:id="@+id/menu_principal"
+        android:name="com.nerifilipe.atmconsultoria.ui.principal.PrincipalFragment"
+        android:label="@string/menu_principal"
+        tools:layout="@layout/fragment_principal"/>
+
+    <fragment
+        android:id="@+id/menu_servicos"
+        android:name="com.nerifilipe.atmconsultoria.ui.servicos.ServicosFragment"
+        android:label="@string/menu_servicos"
+        tools:layout="@layout/fragment_servicos" />
+
+    <fragment
+        android:id="@+id/menu_cliente"
+        android:name="com.nerifilipe.atmconsultoria.ui.clientes.ClienteFragment"
+        android:label="@string/menu_cliente"
+        tools:layout="@layout/fragment_cliente" />
+    <fragment
+        android:id="@+id/menu_contato"
+        android:name="com.nerifilipe.atmconsultoria.ui.contato.ContatoFragment"
+        android:label="@string/menu_contato"
+        tools:layout="@layout/fragment_contato" />
+    <fragment
+        android:id="@+id/menu_sobre"
+        android:name="com.nerifilipe.atmconsultoria.ui.sobre.SobreFragment"
+        android:label="@string/menu_sobre"
+        tools:layout="@layout/fragment_sobre" />
+</navigation>

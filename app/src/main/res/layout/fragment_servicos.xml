@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.servicos.ServicosFragment">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:text="Sistema de gestão de qualidade"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:text="Lorem ipsum commodo tempor dictum dolor scelerisque in mattis fringilla, nisi porttitor vehicula aliquet donec porta porttitor condimentum consequat, magna nam elit tempor hendrerit lobortis velit donec. nostra orci vel vestibulum nulla pharetra platea molestie et pretium hendrerit, litora tellus consectetur semper at donec habitant tempor. litora curae ut ultricies elit vitae volutpat ullamcorper ut, senectus conubia sagittis est lacinia eu netus egestas fringilla, laoreet nam aliquet duis torquent egestas volutpat. curabitur ligula etiam consectetur molestie sem maecenas ultrices orci, habitant faucibus curabitur lacinia vel gravida proin suspendisse eget, lacinia non eros diam et vehicula elementum. "
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:text="Indicadores de desenpenho"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView3" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:text="Lorem ipsum commodo tempor dictum dolor scelerisque in mattis fringilla, nisi porttitor vehicula aliquet donec porta porttitor condimentum consequat, magna nam elit tempor hendrerit lobortis velit donec. nostra orci vel vestibulum nulla pharetra platea molestie et pretium hendrerit, litora tellus consectetur semper at donec habitant tempor. litora curae ut ultricies elit vitae volutpat ullamcorper ut, senectus conubia sagittis est lacinia eu netus egestas fringilla, laoreet nam aliquet duis torquent egestas volutpat. curabitur ligula etiam consectetur molestie sem maecenas ultrices orci, habitant faucibus curabitur lacinia vel gravida proin suspendisse eget, lacinia non eros diam et vehicula elementum. "
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView4" />
+</androidx.constraintlayout.widget.ConstraintLayout>

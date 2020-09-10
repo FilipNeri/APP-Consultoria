@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/menu_principal"
+            android:icon="@drawable/menu_inbox"
+            android:title="@string/menu_principal" />
+        <item
+            android:id="@+id/menu_servicos"
+            android:icon="@drawable/menu_assignment"
+            android:title="@string/menu_servicos" />
+        <item
+            android:id="@+id/menu_cliente"
+            android:icon="@drawable/ic_menu_cliente"
+            android:title="@string/menu_cliente" />
+    </group>
+
+    <item android:title="Entre em contato!">
+        <menu>
+            <item
+                android:id="@+id/menu_contato"
+                android:icon="@drawable/ic_menu_contato"
+                android:title="@string/menu_contato" />
+            <item
+                android:id="@+id/menu_sobre"
+                android:icon="@drawable/ic_menu_info"
+                android:title="@string/menu_sobre" />
+        </menu>
+    </item>
+</menu>
